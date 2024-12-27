@@ -1,0 +1,136 @@
+
+  
+/* Container chính */
+.distributor-container {
+  text-align: center;
+  background: #f6f5e2;
+  padding: 30px 20px;
+  width: 100%;
+  max-width: 1800px;
+  min-width: 800px;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Điều chỉnh chiều cao tự động */
+}
+
+/* Tiêu đề trang */
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.distributor-form {
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #aefbf3; /* Màu nền nhẹ */
+  border-radius: 8px; /* Góc bo tròn */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+  min-width: 500px;
+  margin-bottom: 20px;
+}
+
+.distributor-form form {
+  display: flex;
+  flex-direction: column; /* Sắp xếp theo cột */
+}
+
+.distributor-form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333; /* Màu chữ */
+}
+
+.distributor-form input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc; /* Viền input */
+  border-radius: 4px;
+  margin-bottom: 20px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.distributor-form input[type="text"]:focus {
+  border-color: #007bff; /* Viền khi focus */
+}
+
+.distributor-form .Select__control {
+  margin-bottom: 20px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.distributor-btn1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(10, 1, 1);
+  background: #f77c8c;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 180px;
+  transition: all 0.3s ease;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.distributor-btn1:hover {
+  background: #f95b70; /* Màu khi hover */
+  transform: translateY(-1px); /* Hiệu ứng nhấn */
+  box-shadow: 0 6px 12px rgba(0, 91, 187, 0.2);
+}
+
+/* Bảng danh sách */
+.distributor-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+
+/* Header của bảng */
+.distributor-table thead {
+  background-color: #8e5df9;
+  color: #130202;
+}
+
+.distributor-table th {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #363535;
+}
+
+/* Dữ liệu trong bảng */
+.distributor-table tbody td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #363535;
+  font-size: 14px;
+}
+
+/* Hiệu ứng hover cho hàng dữ liệu */
+.distributor-table tbody tr:hover {
+  background-color: #d9d6d6;
+  transition: background-color 0.3s ease;
+}
+
+.delete-distributor-btn {
+  background-color: #fb7540; /* Màu đỏ */
+  color: rgb(0, 0, 0); /* Chữ màu trắng */
+  border: none; /* Bỏ viền */
+  padding: 10px 15px; /* Khoảng cách trong nút */
+  font-size: 16px; /* Kích thước chữ */
+  cursor: pointer; /* Con trỏ chuột biến thành tay khi di chuyển lên nút */
+  border-radius: 5px; /* Bo góc nút */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Hiệu ứng chuyển màu và phóng to nút */
+}
+
+.delete-distributor-btn:hover {
+  background-color: #c0392b; /* Màu đỏ đậm khi hover */
+}
+
+
