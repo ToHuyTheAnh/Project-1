@@ -52,7 +52,7 @@ const createDistributor = async (distributorData) => {
     _id: distributorData.parentId,
   });
   if (!distributorParent) {
-    throw new Error('Nhà phân phối cấp trên không tồn tại');
+    throw new Error('Nhà phân phối cấp trên không còn tồn tại');
   }
 
   const newDistributorParent = await _findDistributorParent(distributorParent);
